@@ -10,6 +10,7 @@
 
 int main()
 {
+    //Initializing variables
     int p;
     int i;
 
@@ -21,6 +22,7 @@ int main()
     primes[0] = 2;
     primes[1] = 3;
 
+    //Check if a number is prime
     for(p=5; p <= 100; p = p + 2)
     {
         isPrime = true;

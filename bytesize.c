@@ -1,6 +1,6 @@
 /*Author: Ioannis_Ch
   Date:11/06/2020
-  Purpose: print data size
+  Purpose: Training
  */
 
 #include <stdio.h>

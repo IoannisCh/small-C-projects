@@ -8,6 +8,7 @@
 
 int main()
 {
+	//Initializing variables
 	int minutesEntered = 0;
 	double minutesInYear =0;
 	double years = 0.0;
@@ -15,15 +16,16 @@ int main()
 	
 	printf("Please enter the number of minutes: ");
 
-	//get input from the user
-	
+	//Get input from the user
 	scanf("%d", &minutesEntered);
-	
+
+	//Calculations
 	minutesInYear = (60 * 24 * 365);
 	
 	years = (minutesEntered/ minutesInYear);
 	days = (minutesEntered/ 60.0) /24.0;
-	
+
+	//Printing outcome to the screen
 	printf("%d minutes is approximately %f years and %f days\n", minutesEntered, years, days);
 
 		

@@ -1,18 +1,19 @@
 /*
  Author:Ioannis_Ch
- Date:03/06/2020
+ Date:20/06/2020
  Purpose:Training
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
+//Define
 #define MONTHS 12
 #define YEARS 5
 
 int main()
 {
-
+    //Manually import data for each month
     float rain[YEARS][MONTHS] = 
     {
         {4.3,4.3,4.3,3.0,2.0,1.2,0.2,0.2,0.4,2.4,3.5,6.6},
@@ -23,7 +24,7 @@ int main()
     };
     int year, month;
     float subtot, total;
-
+    //Printing data to the screen
     printf("YEAR\t\tRAINFALL  (inches)\n");
 
     for (year = 0, total = 0; year < YEARS; year++)
