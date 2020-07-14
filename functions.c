@@ -15,6 +15,7 @@ float squareRoot(float x);
 //Implimantation of the programm
 int main()
 {
+    //Initializing
     int result = 0;
 
     float  f1 = -15.5, f2 = 20.0, f3 = -5.0;

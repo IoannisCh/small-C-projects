@@ -8,6 +8,7 @@
 
 int main()
 {
+	//Printing in terminal all sizes
 	printf("Variables of type char occupy %zd\n", sizeof(char));
 	printf("Variables of type short occupy %zd\n", sizeof(short));
 	printf("Variables of type int occupy %zd\n", sizeof(int));
