@@ -4,6 +4,10 @@
  Purpose:Training
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
 struct employee {
 char name[30];
 char date[15];
