@@ -1,20 +1,22 @@
 /*Author: Ioannis_Ch
   Date:23/06/2020
   Purpose: Training
+  At the end of the exercise a major code refactoring was made to match the instructor's code in order to check the results if they match
  */
 
 #include <stdio.h>
 #include <stdlib.h>
 
-
+//Initializing var
 char square[10] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
 int choice, player;
 
+//Function prototypes
 int checkForWin();
 void displayBoard();
 void markBoard(char mark);
 
-
+//Main function-gameplay
 int main()
 {
     int gameStatus;
