@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+//Declaration
 int stringLength(const char string[]);
 void concat(char result[], const char str[], const char str1[]);
 bool equalStrings(const char s1[], const char s2[]);
@@ -30,6 +31,7 @@ int main()
     return 0;
 }
 
+//function Implimantation
 int stringLength(const char string[])
 {
     int count = 0;
@@ -40,6 +42,7 @@ int stringLength(const char string[])
     return count;
 }
 
+//function Implimantation
 void concat(char result[], const char str1[], const char str2[])
 {
     int i, j;
@@ -54,7 +57,7 @@ void concat(char result[], const char str1[], const char str2[])
 
     result[i+j] = '\0';
 }
-
+//function Implimantation
 bool equalStrings(const char s1[], const char s2[])
 {
     int i = 0;
