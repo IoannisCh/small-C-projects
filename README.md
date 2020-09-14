@@ -1,3 +1,5 @@
 # small-C-projects
-Training repository, following Udemy course and programming in C with some exercises provided in the course.
-The course was (C Programming For Beginners - Master the C Language)
+This a repo for the needs of Udemy courses,hosting the exercises of this modules. 
+The name of the courses are: 
+-C Programing for Beginners.  Master the C language 
+-Advance C programming course
